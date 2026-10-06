@@ -69,9 +69,7 @@ function ComparisonChart({
             />
 
             <Tooltip
-              formatter={(value: number) =>
-                `${value.toFixed(2)}%`
-              }
+              formatter={(value) => `${Number(value ?? 0).toFixed(2)}%`}
               contentStyle={{
                 border: "1px solid #e2e8f0",
                 borderRadius: "2px",

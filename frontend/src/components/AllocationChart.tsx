@@ -77,9 +77,7 @@ function AllocationChart({
               </Pie>
 
               <Tooltip
-                formatter={(value: number) =>
-                  `${(value * 100).toFixed(1)}%`
-                }
+              formatter={(value) =>`${Number(value ?? 0).toFixed(1)}%`}
               />
 
             </PieChart>
