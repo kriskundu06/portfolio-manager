@@ -1,0 +1,33 @@
+@"
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment
+.env
+.env.*
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
+
+# Raw research datasets
+backend/ml/data/data/raw/news/
+
+# Temporary files
+**/tempCodeRunnerFile.py
