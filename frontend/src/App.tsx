@@ -327,7 +327,7 @@ function Dashboard({
       )}
 
       {portfolio && performance && (
-        <section className="grid grid-cols-1 items-start gap-8 xl:grid-cols-[1fr_1.35fr]">
+        <section className="grid grid-cols-1 items-start gap-8 xl:grid-cols-[1fr_1.25fr]">
 
           <AllocationChart
             SP500={portfolio.SP500}
