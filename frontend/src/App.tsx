@@ -254,7 +254,7 @@ function Dashboard({
   metrics: Metrics | null;
 }) {
   return (
-    <div className="mx-auto max-w-7xl">
+    <div className="mx-auto flex min-h-[calc(100vh-68px)] max-w-7xl flex-col">
 
       <PageHeading
         eyebrow="Overview"
@@ -344,6 +344,9 @@ function Dashboard({
 
         </section>
       )}
+       <footer className="mt-auto pt-8 text-right text-xs text-slate-400">
+        Made with <span className="text-red-500">♥</span> by Krishanu Kundu
+      </footer>
 
     </div>
   );
@@ -660,7 +663,7 @@ function AllocationRow({
 
         <div className="hidden h-1.5 w-32 overflow-hidden bg-slate-100 sm:block">
           <div
-            className="h-full bg-slate-700"
+            className="h-full bg-blue-700"
             style={{ width: `${value * 100}%` }}
           />
         </div>

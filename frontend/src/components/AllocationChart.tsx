@@ -30,11 +30,11 @@ function AllocationChart({
   ];
 
   const colors = [
-    "#334155",
-    "#64748b",
+    "#0b69ec70",
+    "#e80d85",
     "#94a3b8",
-    "#cbd5e1",
-    "#475569",
+    "#6ca87a",
+    "#01060f",
   ];
 
   return (
@@ -50,9 +50,9 @@ function AllocationChart({
         </p>
       </div>
 
-      <div className="grid grid-cols-1 items-center gap-5 sm:grid-cols-2">
+      <div className="grid min-w-0 grid-cols-1 items-center gap-5 sm:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
 
-        <div className="h-64">
+        <div className="h-64 min-w-0">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
 
