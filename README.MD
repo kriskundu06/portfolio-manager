@@ -1,6 +1,6 @@
-# AI Portfolio Manager
+# RL-based Portfolio Manager
 
-An end-to-end AI-powered portfolio management system that uses **Reinforcement Learning (PPO)** to dynamically allocate capital across multiple asset classes.
+An end-to-end RL-powered portfolio management system that uses **Reinforcement Learning (PPO)** to dynamically allocate capital across multiple asset classes.
 
 The project was inspired by the research paper:
 
